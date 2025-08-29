@@ -105,7 +105,9 @@ Realizar Deposito
 •	Escriban los actores principales.
 Cliente (quien realiza las operaciones con la cuenta).
 Administrador del sistema (quien gestiona las cuentas y supervisa la operación).
-Sistema Bankify como ascesor bancario 
+Sistema Bankify El sistema que valida las cuentas y realiza las operaciones bancarias de acuerdo con las reglas de negocio.
+Bancos 
+Bancos como entidad que proporciona los códigos de banco y puede validar que los primeros dos dígitos de una cuenta correspondan a un banco registrado.
 •	Documenten las precondiciones necesarias para el sistema.
 
 El sistema debe verificar que los números de cuenta sigan las reglas antes de permitir la creación.
