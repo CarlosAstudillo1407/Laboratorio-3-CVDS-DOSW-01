@@ -90,29 +90,34 @@ El compromiso puede ser difícil porque, a veces, los miembros del equipo pueden
 la estructura de carpetas tambien se encuentra tal como dijo el profesor, en src, se encuentran util testing y agilismo, y tenemos una carpeta especifica para pruebas unitarias
 
 # Solución Reto 1
-•	Identifiquen reglas de negocio.
-La cuenta debe tener 10 dígitos
-No debe tener Caracteres especiales
-Los primeros dos dígitos deben ser los correspondientes al banco
-Cada cuenta esta asignada a un cliente único
-No se puede realizar un deposito si la cuenta no es valida 
-No se puede consultar saldo si la cuenta no está en el sistema 
-•	Definan las funcionalidades principales.
-Crear cuentas bancarias.
-Validar las cuentas.
-Consultar el saldo de una cuenta.
-Realizar Deposito
-•	Escriban los actores principales.
-Cliente (quien realiza las operaciones con la cuenta).
-Administrador del sistema (quien gestiona las cuentas y supervisa la operación).
-Sistema Bankify como ascesor bancario 
-•	Documenten las precondiciones necesarias para el sistema.
+**Identifiquen reglas de negocio.**
+- La cuenta debe tener 10 dígitos
+- No debe tener Caracteres especiales
+- Los primeros dos dígitos deben ser los correspondientes al banco
+- Cada cuenta esta asignada a un cliente único
+- No se puede realizar un deposito si la cuenta no es valida 
+- No se puede consultar saldo si la cuenta no está en el sistema 
+**Definan las funcionalidades principales.**
+- Crear cuentas bancarias.
+- Validar las cuentas.
+- Consultar el saldo de una cuenta.
+- Realizar Deposito
+**Escriban los actores principales.**
+- Cliente (quien realiza las operaciones con la cuenta).
+- Administrador del sistema (quien gestiona las cuentas y supervisa la operación).
+- Sistema Bankify El sistema que valida las cuentas y realiza las operaciones bancarias de acuerdo con las reglas de negocio.
+- Bancos 
+- Bancos como entidad que proporciona los códigos de banco y puede validar que los primeros dos dígitos de una cuenta correspondan a un banco registrado.
+**Documenten las precondiciones necesarias para el sistema.**
 
-El sistema debe verificar que los números de cuenta sigan las reglas antes de permitir la creación.
-Debe haber una lista de bancos registrados para validar las cuentas.
-El cliente debe tener un numero de cuenta valido para realizar operaciones
-La cuenta debe existir para realizar operaciones bancarias
-El saldo de una cuenta nueva se considera como cero 
-El sistema debe estar disponible para realizar operaciones 
+- El sistema debe verificar que los números de cuenta sigan las reglas antes de permitir la creación.
+- Debe haber una lista de bancos registrados para validar las cuentas.
+- El cliente debe tener un numero de cuenta valido para realizar operaciones
+- La cuenta debe existir para realizar operaciones bancarias
+- El saldo de una cuenta nueva se considera como cero 
+- El sistema debe estar disponible para realizar operaciones 
 
+**Explicación Diagrama de Contexto**
+- Un cliente es el que permite crear cuentas o gestionar  operaciones bancarias las cuales lo recibe el Sistema Bankify. Donde el Sistema debe validar la cuenta o getionar las operaciones creadas por el cliente con el banco 
 
+![alt text](DiagramadeContexto.png)
