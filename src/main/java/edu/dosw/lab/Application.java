@@ -1,4 +1,4 @@
-package edu.dosw.lab.Laboratorio_3_CVDS_DOSW_01;
+package edu.dosw.lab;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
