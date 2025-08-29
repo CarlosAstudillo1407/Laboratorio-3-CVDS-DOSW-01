@@ -5,9 +5,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 
 @SpringBootApplication
-public class Laboratorio3CvdsDosw01Application {
+public class Application {
 
-	public static void main(String[] args) {SpringApplication.run(Laboratorio3CvdsDosw01Application.class, args);
+	public static void main(String[] args) {SpringApplication.run(Application.class, args);
 	}
 
 }
