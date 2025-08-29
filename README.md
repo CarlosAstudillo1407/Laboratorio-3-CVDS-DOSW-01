@@ -121,4 +121,5 @@ la estructura de carpetas tambien se encuentra tal como dijo el profesor, en src
 - Un cliente es el que permite crear cuentas o gestionar  operaciones bancarias las cuales lo recibe el Sistema Bankify. Donde el Sistema debe validar la cuenta o getionar las operaciones creadas por el cliente con el banco 
 
 ![alt text](docs/uml/DiagramadeContexto.png)
+![alt text](docs/uml/casosDeuso.png)
 ![alt text](docs/uml/HistoriasUsuario.png)
