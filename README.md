@@ -82,3 +82,9 @@ Respeto:
 Cada miembro del equipo valora las habilidades, conocimientos y experiencias de los demás. Se fomenta un ambiente donde todos se sienten escuchados y respetados, lo que permite una colaboración efectiva y una mejor resolución de problemas.
 
 El compromiso puede ser difícil porque, a veces, los miembros del equipo pueden no estar completamente motivados o alineados con los objetivos del proyecto. Si no tienen un fuerte sentido de propósito o conexión con el proyecto, puede ser más difícil que se comprometan al 100%. Además, la presión externa o las distracciones pueden afectar el nivel de compromiso de cada miembro.
+
+### Muestra de que maven esta corriendo correctamente
+![alt text](maven.png)
+![alt text](mvnclean.png)
+![alt text](mvntest.png)
+la estructura de carpetas tambien se encuentra tal como dijo el profesor, en src, se encuentran util testing y agilismo, y tenemos una carpeta especifica para pruebas unitarias
