@@ -117,4 +117,7 @@ la estructura de carpetas tambien se encuentra tal como dijo el profesor, en src
 - El saldo de una cuenta nueva se considera como cero 
 - El sistema debe estar disponible para realizar operaciones 
 
+**Explicación Diagrama de Contexto**
+- Un cliente es el que permite crear cuentas o gestionar  operaciones bancarias las cuales lo recibe el Sistema Bankify. Donde el Sistema debe validar la cuenta o getionar las operaciones creadas por el cliente con el banco 
 
+![alt text](DiagramadeContexto.png)
