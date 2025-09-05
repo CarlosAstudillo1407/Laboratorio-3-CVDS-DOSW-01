@@ -123,7 +123,7 @@ la estructura de carpetas tambien se encuentra tal como dijo el profesor, en src
 ![alt text](docs/uml/HistoriasUsuario.png)
 
 **Explicación Reto3**
-![alt text](docs/imagenes/Solucionreto3.png)
+![alt text](docs/imagenes/Soucionreto3.png)
 1. Strategy
 - Se evidencia en EstrategiaVotacion (interfaz) y en EstrategiaFibonacci (implementación concreta).
 - Explicación: Se utiliza el patrón Strategy para definir diferentes maneras de realizar una votación sin cambiar el código principal. En este caso, la votación se basa en la secuencia de Fibonacci, pero podrían añadirse otras estrategias implementando la misma interfaz.
