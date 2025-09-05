@@ -123,7 +123,6 @@ la estructura de carpetas tambien se encuentra tal como dijo el profesor, en src
 ![alt text](docs/uml/HistoriasUsuario.png)
 
 **Explicación Reto3**
-![alt text](docs/imagenes/Soucionreto3.png)
 1. Strategy
 - Se evidencia en EstrategiaVotacion (interfaz) y en EstrategiaFibonacci (implementación concreta).
 - Explicación: Se utiliza el patrón Strategy para definir diferentes maneras de realizar una votación sin cambiar el código principal. En este caso, la votación se basa en la secuencia de Fibonacci, pero podrían añadirse otras estrategias implementando la misma interfaz.
@@ -151,3 +150,42 @@ la estructura de carpetas tambien se encuentra tal como dijo el profesor, en src
 
 - Se ve evidenciado en  Integrante  debido a que tiene una EstrategiaVotacion en lugar de heredar de ella.
 - Explicación: Esto da mayor flexibilidad al poder cambiar dinámicamente el comportamiento de votación sin modificar la jerarquía de clases.
+![alt text](docs/imagenes/Soucionreto3.png)
+
+**Explicación Reto4**
+1. Patrón Strategy
+- Se evidencia en ValidadorCuenta y sus métodos de validación (validarFormato, validarBanco).
+- Explicación: Se encapsulan las reglas de validación en una clase independiente. Esto permite modificar o extender las reglas de validación sin afectar la lógica de gestión de cuentas. En el futuro se pueden agregar más estrategias de validación (por ejemplo, validación internacional) sin alterar el código existente.
+
+2. Principio de Responsabilidad Única (SRP – SOLID)
+- Se evidencia en:
+- Cuenta gestiona saldo y datos de la cuenta.
+- Cliente administra la relación con sus cuentas.
+- ValidadorCuenta se encarga exclusivamente de la validación de reglas.
+- GestorCuentas coordina las operaciones de negocio (crear, depositar, consultar).
+
+3. Principio de Abierto/Cerrado (OCP – SOLID)
+- Se evidencia en  ValidadorCuenta se puede extender con nuevas validaciones sin modificar las existentes.
+
+4. Principio de Inversión de Dependencia (DIP – SOLID)
+- Se evidencia en  GestorCuentas depende de la abstracción (ValidadorCuenta) en lugar de depender de reglas de validación escritas directamente en la clase.
+
+5. Composición sobre Herencia
+- Se evidencia en:
+- Cliente contiene una lista de Cuenta.
+- GestorCuentas utiliza una instancia de ValidadorCuenta.
+
+- En lugar de heredar, las clases se componen de objetos que colaboran entre sí. 
+
+6. Uso de Streams y Lambdas (Java 8+)
+- Se aplicaron en 
+- Cliente.buscarCuenta(...) usa Streams y filter para encontrar cuentas.
+- GestorCuentas usa Optional.ifPresentOrElse para manejar la existencia de una cuenta.
+
+7. TDD (Test-Driven Development)
+- Se escribieron primero pruebas unitarias (ValidadorCuentaTest, GestorCuentasTest).
+- Luego se implementaron las clases hasta que las pruebas pasaran.
+![alt text](docs/imagenes/ValidadorCuentaTest.png)
+![alt text](docs/imagenes/GestorCuentaTest.png)
+
+
