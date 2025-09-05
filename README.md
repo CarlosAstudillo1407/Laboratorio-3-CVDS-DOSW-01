@@ -13,6 +13,21 @@
  Adjuntamos evidencia de que el proyecto esta corriendo bien
 
 ![img.png](img.png)
+
+
+# Grupo 1 - Equipo 10
+
+# Integrantes:
+- Carlos David Astudillo Castiblanco
+- Samuel Leonardo Albarracin
+- Ana Gabriela Fiquitiva Poveda
+
+
+# Primera parte lab 3
+
+ Adjuntamos evidencia de que el proyecto esta corriendo bien
+
+![img.png](img.png)
 # Solución de preguntas
 A. ¿Cuál es la diferencia entre una prueba unitaria y una prueba de integración E2E?
 
