@@ -205,3 +205,5 @@ la estructura de carpetas tambien se encuentra tal como dijo el profesor, en src
 ![alt text](docs/imagenes/GestorCuentaTest.png)
 
 
+- Porque consideramos que es importante realizar pruebas a un software diseñado:
+- samuel albarracin:Yo creo que es importante hacer pruebas a un software porque así uno se da cuenta si lo que programó realmente funciona como debería. A veces uno piensa que todo está bien, pero al probar aparecen errores que no se habían visto. También sirve para asegurarse de que el programa sea confiable y no falle cuando alguien lo use. En pocas palabras, las pruebas ayudan a mejorar la calidad y a evitar problemas más adelante
