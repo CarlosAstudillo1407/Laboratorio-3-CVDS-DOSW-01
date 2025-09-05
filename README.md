@@ -136,6 +136,7 @@ la estructura de carpetas tambien se encuentra tal como dijo el profesor, en src
 ![alt text](docs/uml/DiagramadeContexto.png)
 ![alt text](docs/uml/casosDeuso.png)
 ![alt text](docs/uml/HistoriasUsuario.png)
+![alt text](docs/uml/diagramaclases.png)
 
 **Explicación Reto3**
 1. Strategy
