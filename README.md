@@ -204,6 +204,30 @@ la estructura de carpetas tambien se encuentra tal como dijo el profesor, en src
 ![alt text](docs/imagenes/ValidadorCuentaTest.png)
 ![alt text](docs/imagenes/GestorCuentaTest.png)
 
+**Evidencia Reto 5**
+
+Cobertura global del proyecto
+
+![img_2.png](img_2.png)
+
+La cobertura inicial generada con JaCoCo es:
+
+Cobertura de instrucciones: 31%
+
+Cobertura de ramas: 8%
+
+Observamos que el paquete edu.dosw.lab.Reto3 no tiene pruebas y contribuye con un 0% de cobertura.
+Además, en edu.dosw.lab.modelo y edu.dosw.lab.Servicios faltan casos de excepción (como depósitos negativos, bancos no registrados o cuentas inexistentes).
+
+Estos casos no cubiertos explican por qué las ramas (if/else) solo alcanzaron un 8% de cobertura.
+
+
+
+**Evidencia Reto 6**
+
+![img_1.png](img_1.png)
 
 - Porque consideramos que es importante realizar pruebas a un software diseñado:
 - samuel albarracin:Yo creo que es importante hacer pruebas a un software porque así uno se da cuenta si lo que programó realmente funciona como debería. A veces uno piensa que todo está bien, pero al probar aparecen errores que no se habían visto. También sirve para asegurarse de que el programa sea confiable y no falle cuando alguien lo use. En pocas palabras, las pruebas ayudan a mejorar la calidad y a evitar problemas más adelante
+- Carlos Astudillo: Considero que realizar pruebas en el software es fundamental porque nos permite comprobar que el sistema funciona como se espera y que realmente cumple con los requisitos. Además, ayudan a encontrar errores antes de que lleguen al usuario final, lo cual reduce costos y riesgos.
+- Gabriela Fiquitiva:Yo pienso que las pruebas son importantes porque nos obligan a pensar en los posibles errores antes de que los usuarios los encuentren. También hacen que el código sea más mantenible, porque si alguien cambia algo después, las pruebas avisan si algo se dañó.
